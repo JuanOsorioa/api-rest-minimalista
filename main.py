@@ -11,4 +11,4 @@ def obtener_tareas():
 @app.post("/tasks")
 def crear_tarea(tarea: str):
     tareas.append(tarea)
-    return {"mensaje": "Error intencional"}
+    return {"mensaje": "Tarea creada"}
